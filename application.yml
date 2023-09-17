@@ -9,3 +9,8 @@ management:
   info:
     env:
       enabled: true
+
+  # DESC: Enable gateway related actuator endpoints
+  endpoint:
+    gateway:
+      enabled: true
