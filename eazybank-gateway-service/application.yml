@@ -1,4 +1,4 @@
-# DESC: Custom info for the actuator endpoint: "/info"
+# DESC: Customized info for "/actuator/info" endpoint
 info:
   app:
     name: 'Eazy Bank Gateway Microservice'

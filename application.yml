@@ -1,16 +1,17 @@
-# DESC: Expose actuator endpoints
+# DESC: Actuator endpoint management
 management:
   endpoints:
+    # DESC: Expose actuator endpoints
     web:
       exposure:
-        include: *
+        include: '*'
 
-  # DESC: Enable the actuator endpoint: "info"
+  # DESC: Enable the "/actuator/info" endpoint
   info:
     env:
       enabled: true
 
-  # DESC: Enable gateway related actuator endpoints
+  # DESC: Enable the "actuator/gateway" endpoint
   endpoint:
     gateway:
       enabled: true
