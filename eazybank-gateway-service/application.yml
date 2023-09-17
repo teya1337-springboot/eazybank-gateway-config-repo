@@ -1,6 +1,6 @@
 # DESC: Custom info for the actuator endpoint: "/info"
 info:
   app:
-    name: "Eazy Bank Gateway Server"
-    description: "Eazy Bank Gateway Server Application"
-    version: "1.0.0"
+    name: 'Eazy Bank Gateway Microservice'
+    description: 'Eazy Bank Gateway Application'
+    version: '1.0.0'
