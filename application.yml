@@ -1,5 +1,11 @@
+# DESC: Expose actuator endpoints
 management:
   endpoints:
     web:
       exposure:
         include: *
+
+  # DESC: Enable the actuator endpoint: "info"
+  info:
+    env:
+      enabled: true
